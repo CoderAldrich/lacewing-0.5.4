@@ -1,0 +1,19 @@
+- OpenSSL/SPDY support for Windows
+- HTTP post arrays
+- Support for /dev/poll in EventPump
+- Use OS X security APIs instead of disabling the warnings for OpenSSL
+- Xcode project/framework
+- Check iOS compatibility
+- Check compatibility with OpenBSD, DragonFlyBSD, Solaris
+- HTTP client
+- WebSockets
+- Try to get SWIG working
+- writev style Put overload?
+- Check all functions are in the docs (at least a few are definitely missing)
+- Add C versions of all examples
+- UTF-16 support for Windows
+- More examples (not just for the webserver)
+- Automated testing
+- SPDY multipart support
+- Replace lw_bool, lw_true, lw_false with stdbool
+- A way to list local network interfaces (integrated with lw_filter/lw_addr)

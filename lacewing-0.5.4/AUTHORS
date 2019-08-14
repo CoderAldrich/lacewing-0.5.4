@@ -1,0 +1,34 @@
+Developers (liblacewing)
+
+  James McLaughlin <jamie@lacewing-project.org>
+
+Contributors, arranged by first commit
+
+  Misha Manulis <misha@manulis.com>
+  "scr4t" <http://github.com/scr4t>
+  Itamar Rogel <http://github.com/itamarro>
+  Chris Branch <github@chrisbranch.co.uk>
+  Ben Jaques <ben@massycat.co.uk>
+ 
+Website design and artwork
+
+  Jean Villy Edberg <v.edberg@gmail.com>
+
+deps/http-parser
+
+  http_parser.c is based on src/http/ngx_http_parse.c from NGINX copyright
+  Igor Sysoev.
+
+  Additional changes are licensed under the same terms as NGINX and
+  copyright Joyent, Inc. and other Node contributors. All rights reserved.
+
+deps/multipart-parser
+
+  Based on node-formidable by Felix Geisendörfer 
+  Igor Afonov - afonov@gmail.com - 2012
+
+deps/uthash
+
+  uthash Copyright (c) 2005-2010, Troy D. Hanson http://uthash.sourceforge.net
+  All rights reserved.
+

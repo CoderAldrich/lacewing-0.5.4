@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\cxx">
+      <UniqueIdentifier>{e118777e-2e36-450c-8b14-edb9a79994c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows">
+      <UniqueIdentifier>{c0e70bb5-62b7-491f-b474-1b25415800b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\webserver">
+      <UniqueIdentifier>{709424c0-8e8c-43dc-aabf-0901d1d111db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\webserver\http">
+      <UniqueIdentifier>{c60bc0f6-14cf-44de-817b-13d72811951d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps">
+      <UniqueIdentifier>{cd748e45-e2a3-4ccc-884f-5f59fca5893d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\multipart-parser">
+      <UniqueIdentifier>{f1c108c5-1b6d-4d06-b873-95c0af68734f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\http-parser">
+      <UniqueIdentifier>{2ad4d89e-27ed-43b7-a752-8070a7efbfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\deps\uthash">
+      <UniqueIdentifier>{a7a63097-9cab-431a-9151-a93e91a0e94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\address.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\flashpolicy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\heapbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nvhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pipe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\streamgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\address.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\client.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\error.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\event.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\eventpump.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\fdstream.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\file.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\filter.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\flashpolicy.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\pipe.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\pump.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\server.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\stream.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\sync.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\thread.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\timer.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\udp.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cxx\webserver.cc">
+      <Filter>Source Files\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\client.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\compat.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\event.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\eventpump.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\fdstream.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\file.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\global.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\server.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\sslclient.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\sync.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\thread.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\timer.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\udp.c">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\mimetypes.c">
+      <Filter>Source Files\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\multipart.c">
+      <Filter>Source Files\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\request.c">
+      <Filter>Source Files\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\sessions.c">
+      <Filter>Source Files\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\upload.c">
+      <Filter>Source Files\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\webserver.c">
+      <Filter>Source Files\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\http\http-client.c">
+      <Filter>Source Files\webserver\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\webserver\http\http-parse.c">
+      <Filter>Source Files\webserver\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\multipart-parser\multipart_parser.c">
+      <Filter>Source Files\deps\multipart-parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\http-parser\http_parser.c">
+      <Filter>Source Files\deps\http-parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\address.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\heapbuffer-cxx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\heapbuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\list.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nvhash.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pump.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\streamgraph.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\common.h">
+      <Filter>Source Files\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\compat.h">
+      <Filter>Source Files\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\fdstream.h">
+      <Filter>Source Files\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\sslclient.h">
+      <Filter>Source Files\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\typeof.h">
+      <Filter>Source Files\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\webserver\common.h">
+      <Filter>Source Files\webserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\webserver\multipart.h">
+      <Filter>Source Files\webserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\webserver\http\http.h">
+      <Filter>Source Files\webserver\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\multipart-parser\multipart_parser.h">
+      <Filter>Source Files\deps\multipart-parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\http-parser\http_parser.h">
+      <Filter>Source Files\deps\http-parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\uthash\utarray.h">
+      <Filter>Source Files\deps\uthash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\uthash\uthash.h">
+      <Filter>Source Files\deps\uthash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\uthash\utlist.h">
+      <Filter>Source Files\deps\uthash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\uthash\utstring.h">
+      <Filter>Source Files\deps\uthash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\lacewing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

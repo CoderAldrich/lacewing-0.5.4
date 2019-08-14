@@ -1,0 +1,52 @@
+
+<html>
+    <head>
+        <title>liblacewing AJAX example</title>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+            $(document).ready(function()
+            {
+                $('#broadcast').click(function()
+                {
+                    var message = $('#message').val();
+                    $('#message').val('');
+                    
+                    $.post('message', { message: message });
+                });
+                
+                (function doPoll()
+                {
+                    $.post('poll', function(message)
+                    {
+                        if(!message)
+                            return;
+                            
+                        $('#messages').prepend($('<li></li>').text(message));
+                    
+                        doPoll();
+                    });
+                    
+                })();
+            });
+            
+        </script>
+
+    </head>
+    <body>
+
+        <label for="message">Type something to broadcast to everyone</label>
+        <input type="text" id="message" />
+        <button id="broadcast">Broadcast!</button>
+        
+        <br />
+        Messages:
+        
+        <p><ul id="messages">
+        
+            
+        </ul></p>
+        
+    </body>
+</html>
