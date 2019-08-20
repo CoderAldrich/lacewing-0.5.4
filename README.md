@@ -40,14 +40,6 @@ As there is no single model for event handling that would suit every application
 
 - [start_sleepy_ticking](http://udp.github.io/lacewing/docs/eventpump/start_sleepy_ticking.html) enables a threaded callback to request the application call tick as soon as possible, suited to applications with an existing message pump (such as Win32 GUI applications)
 
-### [lacewing::server](http://udp.github.io/lacewing/docs/server/)
-server provides a cross-platform TCP socket server, driven by a [pump](http://udp.github.io/lacewing/docs/pump/).
-
-### [lacewing::client](http://udp.github.io/lacewing/docs/client/)
-**client** provides a simple [pump](http://udp.github.io/lacewing/docs/pump/)-driven TCP socket client as a [stream](http://udp.github.io/lacewing/docs/stream/).
-
-
-
 ### [lacewing::webserver](http://udp.github.io/lacewing/docs/webserver/)
 **webserver** aims to provide an embeddable, flexible HTTP server using liblacewing classes as a base.
 
